@@ -10,7 +10,6 @@
       entry.target.classList.add('appear');
       obs.unobserve(entry.target);
     });
-
   }
 
   const obserer = new IntersectionObserver(callback, {
