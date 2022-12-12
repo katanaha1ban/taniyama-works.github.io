@@ -31,7 +31,7 @@ a:hover {
 }
 
 .appear {
-  opacity: 1;
+  opacity: 1 ;
 }
 
 /* header */
@@ -80,8 +80,13 @@ header .container {
   position: absolute;
 }
 
-.hero-show {
+.updatepart{
   opacity: 0;
+  transition: opacity 1s;
+}
+
+.heroappear {
+  opacity: 1 ;
 }
 
 /* concept */
